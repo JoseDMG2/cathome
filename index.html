@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatHome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Imagenes/Logotipo.png" alt="Logo" width="170" height="50"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Home</a>
+                        <a class="nav-link" href="#negocios">Negocios</a>
+                        <a class="nav-link" href="#parati">Para ti</a>
+                        <a class="nav-link" href="#preguntas">Preguntas</a>
+                        <a class="nav-link" href="#descargas">Descargas</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- Primera Sección_Bienvenidos a CatHome! -->
+
+        <section class="Inicio" id="inicio">
+            <div class="container mt-5 mb-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-12 text-start">
+                        <h1 class="mb-4 display-4 highlight-text textoanimacion">¡Bienvenidos a CatHome!</h1>
+                        <p class="mb-4 lead texto-descarga">
+                            Aquí encontrarás adorables compañeros peludos que están en busca de un hogar lleno de amor.
+                            Nuestra misión es conectar a estos maravillosos felinos con personas y familias dispuestas a
+                            brindarles una segunda oportunidad. Cada gato tiene una historia única y está esperando
+                            compartirla contigo.
+                        </p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Video Presentación
+                        </button>
+                    </div>
+                    <div class="col-lg-4 col-md-12 text-center mt-4 mt-lg-0 textoanimacion">
+                        <img src="Imagenes/Portada.png" alt="Portada" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Un gatito que canta :D</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe width="460" height="215" src="https://www.youtube.com/embed/hPYAe2jqNP0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary"
+                            onclick="window.open('https://youtu.be/hPYAe2jqNP0?si=bj7q_vwwu3tAvXI3', '_blank')">Ver en
+                            YT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- Segunda Sección_ParaNegocios -->
+
+        <section class="Negocios py-5 bg-negocios" id="negocios">
+            <div class="container">
+                <h2 class="text-center mb-5 display-6 highlight-text-no-red textoanimacion">Generamos Oportunidades para
+                    los Negocios</h2>
+                <div class="row gy-4">
+
+                    <!-- Beneficio 1 -->
+
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center shadow-sm pt-4">
+                            <img src="Imagenes/beneficio1.png" alt="Beneficio 1" class="card-img-top mx-auto"
+                                style="width: 25%; height: auto;">
+                            <div class="card-body">
+                                <h5 class="card-title">Publica tus productos</h5>
+                                <p class="card-text">Anuncia artículos para gatos en nuestra página y conecta con
+                                    amantes de los felinos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Beneficio 2 -->
+
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center shadow-sm pt-4">
+                            <img src="Imagenes/beneficio2.png" alt="Beneficio 2" class="card-img-top mx-auto"
+                                style="width: 25%; height: auto;">
+                            <div class="card-body">
+                                <h5 class="card-title">Programa de socios</h5>
+                                <p class="card-text">Únete a nuestro programa y contribuye a encontrar hogares para
+                                    gatos, con acceso a eventos especiales y actualizaciones.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Beneficio 3 -->
+
+                    <div class="col-md-4">
+                        <div class="card h-100 text-center shadow-sm pt-4">
+                            <img src="Imagenes/beneficio3.png" alt="Beneficio 3" class="card-img-top mx-auto"
+                                style="width: 25%; height: auto;">
+                            <div class="card-body">
+                                <h5 class="card-title">Reconocimiento en la web</h5>
+                                <p class="card-text">Recibe reconocimiento en nuestra web por tu apoyo, destacando tu
+                                    contribución al bienestar de los gatos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Botón para abrir el formulario -->
+
+                <div class="row mt-5">
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#formularioColapsado" aria-expanded="false"
+                            aria-controls="formularioColapsado">
+                            Abrir formulario
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Formulario colapsable -->
+
+                <div class="collapse mt-4" id="formularioColapsado">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="formulario-contenedor">
+                                <h3
+                                    class="text-center mb-5 mt-5 display-6 highlight-text-no-red letra-roja textoanimacion">
+                                    Regístrate para Colaborar con Nosotros
+                                </h3>
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="nombre" class="form-label letra-negra">Nombre</label>
+                                        <input type="text" class="form-control" id="nombre"
+                                            placeholder="Ingresa el nombre">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="apellido" class="form-label letra-negra">Apellido</label>
+                                        <input type="text" class="form-control" id="apellido"
+                                            placeholder="Ingresa tu apellido">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label letra-negra">Correo Electrónico</label>
+                                        <input type="email" class="form-control" id="email"
+                                            placeholder="Ingresa tu correo electrónico">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="telefono" class="form-label letra-negra">Teléfono</label>
+                                        <input type="tel" class="form-control" id="telefono"
+                                            placeholder="Ingresa tu número de teléfono">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="descripcion" class="form-label letra-negra">Descripción</label>
+                                        <textarea class="form-control" id="descripcion" rows="4"
+                                            placeholder="Cuéntanos por qué deseas colaborar"></textarea>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label letra-negra" for="exampleCheck1">Aceptar los
+                                            términos y condiciones</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- Seccion 3_Para ti -->
+
+        <section class="py-5" id="parati">
+            <div class="container text-center">
+                <h2 class="text-center mb-4 display-6 highlight-text-no-red textoanimacion letra-roja">Para ti</h2>
+                <p class="mb-5 lead">
+                    Si buscas un amigo peludo, adopta, no compres. <br>
+                    🐱 Ellos te esperan con las patitas abiertas para darte un super abrazo gatunesco. 🐱
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato10.jpg" class="card-img-top" alt="gato1"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: El Licenciado Encaro</h5>
+                                <p class="card-text">Raza: Genius Purrsimus</p>
+                                <p class="card-text">Dato: Este gato se especializa en hacerse el que "no sabía" mientras te ve con cara de “no es mi problema” con su título honorífico en "me vale madre".</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato2.jpg" class="card-img-top" alt="gato2"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: Muffin</h5>
+                                <p class="card-text">Raza: Golpeorrius del Bajío</p>
+                                <p class="card-text">Dato: Su pasatiempo favorito es amenazar a los perros desde la azotea, pero si se cae, finge que "era parte del plan".</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato4.jpg" class="card-img-top" alt="gato3"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: Señor Migajas III</h5>
+                                <p class="card-text">Raza: Eleganticus Formalis</p>
+                                <p class="card-text">Dato: Buscado por la policía por crímenes de contrabando. Lleva siempre una corbata y cuando maúlla, te dice "compadre".</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato6.jpg" class="card-img-top" alt="gato4"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: El Pana Miguelito</h5>
+                                <p class="card-text">Raza: Dramaticus Sentimentalensis</p>
+                                <p class="card-text">Dato: Se quedó traumado desde que lo mandaron a comprar pan y saludó diciendo "Bolas" en vez de "Buenos días" u "Hola".</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato17.jpg" class="card-img-top" alt="gato1"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: Carlos</h5>
+                                <p class="card-text">Raza: Resaca Felina Intensus</p>
+                                <p class="card-text">Dato: Nadie sabe si está serio o solo está pensando en lo existencial. Tiene cara de haber soportando a sus compañeros que andan perdidos todo el tiempo pero no dice nada por respeto.</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato9.jpg" class="card-img-top" alt="gato2"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: Insomnio</h5>
+                                <p class="card-text">Raza: Miradus Desorientatus</p>
+                                <p class="card-text">Dato: Siempre parece que está viendo su tesis en la madrugada. Lleva días sin dormir bien, atrapado entre PDFs interminables y el café ya no le hace efecto.</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato14.jpg" class="card-img-top" alt="gato3"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: Inge. Martinez</h5>
+                                <p class="card-text">Raza: Errorus Fatalis</p>
+                                <p class="card-text">Dato: Maestro en que nada le salga como lo planea. Parece que la tecnología conspira en su contra: el Wi-Fi no conecta, los programas no responden, y el archivo que juraba haber guardado no está por ningún lado.</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="Imagenes/gato18.jpg" class="card-img-top" alt="gato4"
+                                style="object-fit: cover; height: 200px;">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Nombre: Cheffcito</h5>
+                                <p class="card-text">Raza: Culinarius Felinus</p>
+                                <p class="card-text">Dato: Este chef es un maestro en la alta cocina de croquetas. Puede hacer manjares con tres ingredientes y nunca falta en la cocina a la hora del almuerzo.</p>
+                                <div class="mt-auto">
+                                    <a href="#" class="btn btn-primary">Adoptar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 4_Preguntas -->
+
+        <section class="py-5 bg-negocios" id="preguntas">
+
+            <!-- preguntas -->
+
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h2 class="display-6 highlight-text-no-red">Preguntas frecuentes</h2>
+                    <p>Aquí te brindamos las preguntas más frecuentes que nos suelen hacer.</p>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    1. ¿Qué requisitos debo cumplir para adoptar un gato?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Para adoptar un gato, debes tener al menos 18 años,
+                                    presentar una
+                                    identificación oficial y llenar nuestro formulario de adopción. Además, es
+                                    importante demostrar
+                                    que puedes ofrecer un ambiente seguro y amoroso para el gato, lo que incluye una
+                                    entrevista y
+                                    una visita domiciliaria previa a la adopción.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    2. ¿Qué incluye la adopción de un gato?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">La adopción incluye la vacunación del gato, su
+                                    esterilización y un
+                                    chequeo médico previo. También te brindamos una orientación básica sobre el cuidado
+                                    del gato y
+                                    una primera consulta veterinaria gratuita.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    3. ¿Puedo devolver al gato si no me adapto a él?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Entendemos que, en ocasiones, puede haber problemas de
+                                    adaptación. Si
+                                    no logras adaptarte al gato o hay alguna complicación, puedes devolverlo dentro de
+                                    los primeros
+                                    30 días. Queremos asegurarnos de que el gato encuentre un hogar adecuado, por lo que
+                                    te
+                                    ayudaremos a explorar otras opciones.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    4. ¿Cuánto tiempo toma el proceso de adopción?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">El proceso de adopción generalmente toma entre 3 y 5 días,
+                                    dependiendo
+                                    de la rapidez con la que se completen los pasos, como la entrevista y la visita
+                                    domiciliaria.
+                                    Queremos asegurarnos de que el gato se vaya a un hogar adecuado, por lo que
+                                    dedicamos tiempo a
+                                    conocer a los adoptantes.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    5. ¿Qué debo hacer si tengo otro gato en casa?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Si ya tienes otro gato en casa, te recomendamos una
+                                    introducción
+                                    gradual entre ambos. Te proporcionaremos una guía sobre cómo presentar a los gatos
+                                    de manera
+                                    segura y tranquila para minimizar el estrés y favorecer una convivencia armoniosa.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen -->
+
+                <div class="col-md-5 d-flex justify-content-center align-items-center">
+                    <img src="Imagenes/gato5.jpg" class="img-fluid rounded" alt="Imagen de gato">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección 5 Descargas -->
+
+        <section class="py-5" id="descargas">
+            <div class="container py-4 align-items-center">
+                <div class="row mb-1 justify-content-center">
+                    <div class="col-md-9 col-lg-6 py-4">
+                        <h2 class="display-4 mb-3 text-center highlight-text textoanimacion">¡DESCÁRGALO YA!</h2>
+                        <p class="lead texto-descarga text-center">
+                            Empieza a adoptar un gato y accede a nuestras funcionalidades exclusivas desde nuestro
+                            aplicativo.
+                        </p>
+                        <p class="lead texto-descarga text-center">
+                            ¡Obtén la app y ayuda a más gatitos a ser felices!
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-1 justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-center mb-3">
+                        <a href="https://play.google.com/store"
+                            class="btn btn-info btn-md btn-custom text-light rounded-pill w-100">
+                            <i class="bi bi-google-play"></i> Descárgalo desde Play Store
+                        </a>
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center mb-3">
+                        <a href="https://apps.apple.com/"
+                            class="btn btn-info btn-md btn-custom text-light rounded-pill w-100">
+                            <i class="bi bi-apple"></i> Descárgalo desde App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección para el botón de Whatsapp -->
+
+    <div class="contacto position-fixed bottom-0 end-0">
+        <a href="https://chat.whatsapp.com/BC5oGh1jPWn0VxsxmJv8al" target="_blank">
+            <img src="Imagenes/whatsapp.png" alt="Imagen fija" class="whatsapp">
+        </a>
+    </div>
+
+    <!-- footer  -->
+
+    <footer class="bg-light text-dark pt-5 gb-4">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 col-mg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 letra-roja textoanimacion">Nosotros</h5>
+                    <hr class="mb-4">
+                    <p>
+                        Somos una empresa que busca trabajar con personas con ganas de ayudar y mejorar la vida de
+                        nuestros amigos felinos.
+                    </p>
+                </div>
+                <div class="col-md-3 col-mg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 letra-roja textoanimacion">Contactanos</h5>
+                    <hr class="mb-4">
+
+                    <p><img src="Imagenes/hogar.png"> Av. Arequipa 2015 Lima </p>
+                    <p><img src="Imagenes/facebook.png"> Cat Home Oficial</p>
+                    <p><img src="Imagenes/sobre.png"> informes@cathome.com</p>
+                    <p><img src="Imagenes/llamada-telefonica.png"> 368 574 123</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

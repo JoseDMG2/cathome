@@ -1,0 +1,79 @@
+.bg-negocios {
+    background-color: #cc0e4e;
+    color: white;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
+    z-index: 1000;
+}
+
+.letra-roja {
+    color: #cc0e4e;
+}
+
+.letra-negra {
+    color: #000000;
+}
+
+.highlight-text {
+    color: #cc0e4e;
+    font-weight: bold;
+}
+
+.highlight-text-no-red {
+    font-weight: bold;
+}
+
+.texto-descarga {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+.btn-custom i {
+    margin-right: 8px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    border-radius: 15px 15px 0 0;
+}
+
+.formulario-contenedor {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.textoanimacion {
+    transition: transform 0.3s;
+}
+
+.textoanimacion:hover {
+    transform: scale(1.05);
+}
