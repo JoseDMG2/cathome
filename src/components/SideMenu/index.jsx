@@ -49,6 +49,10 @@ function SideMenu() {
             icon: <UserOutlined />,
           },
           {
+            label: "Clientes",
+            key: "/webadmin/graficos",
+          },
+          {
             label: "Cerrar Sesión",
             key: "/",
           },
